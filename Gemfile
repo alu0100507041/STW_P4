@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-group :desarrollo
+group :desarrollo do
   gem "rack"
   gem "thin"
   gem "haml"
