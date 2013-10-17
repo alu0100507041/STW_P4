@@ -5,7 +5,8 @@
     %title Piedra, Papel o Tijeras
     %link{:href => "/public/css/bootstrap.css", :rel => "stylesheet"}
     %link{:href => "/public/css/bootstrap-responsive.css", :rel => "stylesheet"}
-    %script{:src => "/public/js/bootstrap.js"} 
+    %script{:src => "/public/js/bootstrap.js"}
+    %link{:href => "public/estilo.css", :rel => "stylesheet"}
   %body
     .container
       %center
@@ -19,7 +20,5 @@
       
         %h2 Jugador: #{player_throw}
         %h3 Contra
-        %h2 Ordenador: #{computer_throw}
+        %h2 Maquina: #{computer_throw}
         %h3 Resultado: #{answer}
-
-        %script{:src => "/js/bootstrap.js"}

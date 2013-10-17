@@ -19,7 +19,5 @@
       
         %h2 Jugador: #{player_throw}
         %h3 Contra
-        %h2 Ordenador: #{computer_throw}
+        %h2 Maquina: #{computer_throw}
         %h3 Resultado: #{answer}
-
-        %script{:src => "/js/bootstrap.js"}
