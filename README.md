@@ -11,8 +11,7 @@ A partir de la práctica anterior (`STW_P4`) comenzaremos esta para añadirle la
 
 ## Modo de ejecucion
 
-- _Ejecutar: 
 	rake
-- _Acceder:
+## Acceder:
 	http://localhost:8080/
 
