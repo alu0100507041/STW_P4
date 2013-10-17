@@ -1,4 +1,4 @@
-require './rps.rb'
+require './piedra.rb'
 
 builder = Rack::Builder.new do
   use Rack::Static, :urls => ['/public']

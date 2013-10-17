@@ -1,4 +1,4 @@
-desc "Ejecutar Piedra, Papel o Tijeras"
+desc "Ejecutar servidor"
 task :default do
-  sh "ruby piedra.rb"
+  sh "ruby config.ru"
 end

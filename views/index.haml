@@ -1,23 +1,25 @@
 %html
   %head
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html'}
-    %link{:href => "/css/css.css", :rel => "stylesheet"}
+    %meta{:charset => "utf-8"}
+    %title Piedra, Papel o Tijeras
     %link{:href => "/public/css/bootstrap.css", :rel => "stylesheet"}
     %link{:href => "/public/css/bootstrap-responsive.css", :rel => "stylesheet"}
-    %script{:src => "/public/js/bootstrap.js"}     
-  %title Rock, Paper, Scissors a ruby game
+    %script{:src => "/public/js/bootstrap.js"} 
   %body
-  .container
-    .row-fluid
-      .hero-unit
-        %h2 Welcome to Rock, Paper, Scissors the game
-        %h3 Please choose one of the following:
-        %a{:href => '?choice=rock', :class => 'btn btn-large btn-danger' } Rock
-        %a{:href => '?choice=paper', :class => 'btn btn-large btn-warning' } Paper
-        %a{:href => '?choice=scissors', :class => 'btn btn-large btn-success'} Scissors
+    .container
+      %center
+        %h1 Juego: Piedra, Papel o Tijeras
 
-      .thumbnail 
-        %p Player: #{player_throw} vs Computer: #{computer_throw}   
-        
-        %h3= answer
+        %h3 Elige una opcion:
+        %a{:href => '?choice=piedra', :class => 'btn btn-large btn-success'} Piedra
+        %a{:href => '?choice=papel', :class => 'btn btn-large btn-success'} Papel
+        %a{:href => '?choice=tijeras', :class => 'btn btn-large btn-success'} Tijeras
 
+      
+        %h2 Jugador: #{player_throw}
+        %h3 Contra
+        %h2 Ordenador: #{computer_throw}
+        %h3 Resultado: #{answer}
+
+        %script{:src => "/js/bootstrap.js"}
